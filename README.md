@@ -2,4 +2,4 @@
 #this is and mutiple dir to link together 
 main file(first  page) is index.html 
 -----------------------------------------------
-install dir to server in completely 
+install all dir to server it completely 
