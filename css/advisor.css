@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    background-image: url(../image/bac2.png);
+    background-size: 1920px 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.img-teacher img
+{
+    width: 550px;
+}
+.img-teacher
+{
+    margin-left: 200px;
+}
+.info-tea
+{
+    color: white;
+}
+.info-tea h1
+{
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px #ff4040;
+    color: #ff4040;
+}
