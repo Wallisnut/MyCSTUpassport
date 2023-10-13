@@ -3,59 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>myadvisor</title>
+    <title>My adviser</title>
     <link rel="stylesheet" href="../css/advisor.css">
+     <!-- icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+     <!-- font logo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+ 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="head">
-        <a href="#" class="name">
-            MY <strong class="cstu">CSTU</strong> PASSPORT
-        </a>
-        <nav class="navbar">
-            <a href="../index.html" class="na1">ABOUT ME</a>
-            <a href="MyAdvisor.html" class="na2">ADVISOR</a>
-            <a href="MyActivities.html" class="na3">ACTIVITIES</a>
-            <a href="../index.html" class="active">HOME PAGE</a>
+    <header class="nav-bar">
+        <h1 id="logo-1">Boss</h1>
+        <nav class="nav-other">
+            <a href="../index.html">Home page</a>
+            <a href="#">My adviser</a>
+            <a href="MyActivities.html">My activities</a>
+            <span></span>
+        </nav>
+        <nav class="contact">
+            <a href="#" id="btn-contact">Contact</a>
+            <a href="#"><i class="ri-menu-line"></i></a>
         </nav>
     </header>
-    <div class="img-teacher" >
-        <img src="../image/teacher.png" alt="teacher face">
-    </div>
-    <main class="info-tea">
-        <div>
-            <h3>ABOUT TEACHER</h3>
-            <h1>
-                ผศ.ดร.มนวรรัตน์ ผ่องไพบูลย์ <br>
-                Asst.Prof.Dr. MONVORARAT PONGPAIBOON
-            </h1>
-            <p>
-<strong>ข้อมูลติดต่อ (CONTACT INFORMATION)</strong> <br>
-<ul>
-    <li>อาคาร LC-2 ชั้น 2 ห้อง 210</li>
-    <li>0-2986-9156 ต่อ 219</li>
-    <li>pmonvora@tu.ac.th</li>
-</ul> <br>
-<strong>หัวข้อวิจัยที่สนใจ (RESEARCH INTEREST)</strong>
-<ul>
-    <li>Software economics</li>
-    <li>Software process and improvement</li>
-    <li>Software metrics</li>
-    <li>Process simulation</li>
-</ul><br>
-<strong>การศึกษา (EDUCATION)</strong>
-<ul>
-    <li>Ph.D.(Computer Science) University of Southern California, USA, 2550</li>
-    <li>M.S. (Computer Science), University of Southern California, USA, 2550</li>
-    <li>วท.บ. (ศาสตร์คอมพิวเตอร์) มหาวิทยาลัยธรรมศาสตร์, ประเทศไทย, 2541
-    </li>
-</ul>
-            </p>
-        </div>
-        <div class="more-teacher">
-            <a href="https://cs.sci.tu.ac.th/2022/01/24/monvorath/" target="_blank">More about her</a>
-        </div>
+    <main class="content">
+        <section class="teacher">
+            <img src="../image/teacher.png" alt="teacher-face">
+        </section >
+        <section class="infor-0">
+            <div>
+                <h3>ABOUT TEACHER</h3>
+                <h1>
+                    ผศ.ดร.มนวรรัตน์ ผ่องไพบูลย์
+                </h1>
+                <h1 class="e-teachername">    
+                    Asst.Prof.Dr. MONVORARAT PONGPAIBOON
+                </h1>
+                <p>
+    <strong>ข้อมูลติดต่อ (CONTACT INFORMATION)</strong> <br>
+    <ul>
+        <li>อาคาร LC-2 ชั้น 2 ห้อง 210</li>
+        <li>0-2986-9156 ต่อ 219</li>
+        <li>pmonvora@tu.ac.th</li>
+    </ul> <br>
+    <strong>หัวข้อวิจัยที่สนใจ (RESEARCH INTEREST)</strong>
+    <ul>
+        <li>Software economics</li>
+        <li>Software process and improvement</li>
+        <li>Software metrics</li>
+        <li>Process simulation</li>
+    </ul><br>
+    <strong>การศึกษา (EDUCATION)</strong>
+    <ul>
+        <li>Ph.D.(Computer Science) University of Southern California, USA, 2550</li>
+        <li>M.S. (Computer Science), University of Southern California, USA, 2550</li>
+        <li>วท.บ. (ศาสตร์คอมพิวเตอร์) มหาวิทยาลัยธรรมศาสตร์, ประเทศไทย, 2541
+        </li>
+    </ul>
+                </p>
+            </div>
+            <div class="teacher-icon">
+                <ul>
+                    <li>
+                        <a href=""><i class="ri-community-line"></i></a>
+                        <a href="" class="more">More about her</a>
+                    </li>
+                </ul>
+                
+                
+                
+            </div>
+           
+        </section>
     </main>
-   
-    
 </body>
 </html>
