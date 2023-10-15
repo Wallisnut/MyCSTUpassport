@@ -157,7 +157,11 @@ main
     list-style: none;
     position: relative;
     display: flex;
-    background: linear-gradient(var(--c-1),var(--c-4));
+    background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     width: 200px;
     height: 450px;
     overflow: hidden;
@@ -195,7 +199,8 @@ main
 .infor-0 div ul li div h4
 {
     font-size: 30px;
-    background: linear-gradient(var(--c-6),var(--c-3));
+    text-shadow: 0 8px 10px var(--c-1); 
+    background: linear-gradient(var(--c-6),var(--c-6));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
