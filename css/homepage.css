@@ -32,11 +32,8 @@
 }
 body
 {
-    background: linear-gradient(var(--c-3),var(--c-1));
-    /*background-image:url(../image/night\ bac.jpg);*/
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
+    background: linear-gradient(90deg, rgba(5,38,89,1) 0%, rgba(44,96,156,1) 50%, rgba(5,38,89,1) 100%);
+    position: relative;
     position: relative;
     padding : 0 8%;
 }
@@ -44,10 +41,11 @@ body
 {
     position: absolute;
     width: 100%;
-    height: 100vh;
+    height: 790px;
     top: 0;
     left: 0;
     z-index: -10000;
+    overflow: hidden;
    
 }
 .bac img
@@ -502,7 +500,7 @@ body
     {
         display: flex;
         flex-wrap: wrap;
-        gap: 2rem;
+        gap: 1rem;
         position: relative;
         justify-content: center;
         padding: 0 200px 0 200px;
@@ -536,10 +534,88 @@ body
     }
     .infor-0 ul li 
     {
+        
         padding-right: 10px;
     }
+    .bac
+    {
+        height: 650px;
+    }
 }
-@media (max-width: 1023px)
-{}
+@media (max-width: 983px)
+{
+    .content
+    {
+        padding: 0 20px 0 20px;
+    }
+    .slider
+    {
+        padding: 0 70px 0 70px;
+    }
+    .picvid div 
+    {
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width:777px)
+{
+    .nav-bar h1
+{
+    display: flex;
+    font-size: 40px;
+    color: var(--c-5);
+    text-shadow: 0 0 5px var(--c-5);
+}
+.nav-other
+{
+    width: 325px;
+    height: 45px;
+}
+.nav-other a
+{
+    margin:0 13px ;
+    font-size: 13px;
+    color: var(--c-6);
+    font-weight: 200;
+    z-index: 1000;
+}
+.nav-bar span
+{
+    height: 100%;
+    width: 120px;
+}
+.nav-other a:nth-child(1):hover~span
+{
+    left:0;
+}
+.nav-other a:nth-child(2):hover~span
+{
+    left:115px;
+    width: 100px;
+}
+.nav-other a:nth-child(3):hover~span
+{
+    left:210px;
+    width: 110px;
+}
+.contact
+{
+    width: 100px;
+    height: 45px;
+    padding-top: 15px;
+    padding-left: 5px;
+}
+.contact a
+{
+   font-size: 13px;
+}
+.slider-body
+{
+    margin-left: 0;
+}
+
+}
 @media (min-width: 767px)
 {}
