@@ -509,9 +509,19 @@ body
     {
         order: 2;
     }
+    .slider
+    {
+        margin-left: 0;
+        width: 100%;
+        /*padding:0 100px 0 100px ;*/
+    }
     .slider-body
     {
-        margin-left: -130px;
+        padding: 0 180px 0 100px;
+    }
+    .bottom-nav
+    {
+        margin-left: -60px;
     }
     .infor-0
     {
