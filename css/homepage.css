@@ -614,9 +614,32 @@ body
 {
     padding: 0 ;
 }
-
+.infor-0
+{
+    margin-left: -50px;
+}
 }
 @media (max-width: 605px)
 {
+    .content
+{
+    padding: 0 ;
+}
+.slider
+{
+    padding: 0 ;
+}
     
+.nav-other
+{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.nav-other a
+{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
 }
