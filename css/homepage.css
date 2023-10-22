@@ -548,6 +548,10 @@ body
         justify-content: center;
         align-items: center;
     }
+    body 
+    {
+        overflow-x: hidden;
+    }
 }
 
 @media (max-width:777px)
@@ -618,6 +622,10 @@ body
 {
     margin-left: -50px;
 }
+body
+{
+    overflow-x: hidden;
+}
 }
 @media (max-width: 605px)
 {
@@ -672,6 +680,7 @@ body
 body
 {
     top: 200px;
+    overflow-x: hidden;
 }
 .slider-body
     {
