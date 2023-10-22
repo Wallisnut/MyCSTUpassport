@@ -673,8 +673,9 @@ body
 {
     top: 200px;
 }
+.slider-body
+    {
+        margin-left: -30px;
+    }
 }
-@media (max-width:495px)
-{
-    
-}
+
