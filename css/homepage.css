@@ -689,10 +689,6 @@ body
 }
 @media(max-width:656px)
 {
-    .bac 
-    {
-        display: flex;
-    }
     .pic-slice 
     {
         display: flex;
@@ -721,6 +717,7 @@ body
     {
         margin-top: 5rem;
         padding-right: 5px;
+        padding-left: 35px;
     }
     .btn-contact1
     {
@@ -750,7 +747,7 @@ body
 }
 .btn-more a
 {
-    font-size: var(--f-25);
+    font-size: 15px;
 }
 .slider-body
 {
@@ -771,5 +768,117 @@ body
     margin-left: 12px;
     
 }
+}
+@media (max-width:469px)
+{
+    :root
+    {
+        --f-45: 30px;
+        --f-40: 25px;
+        --f-30: 15px;
+        --f-28: 13px;
+        --f-25: 15px;
+        --f-22: 8px;
+        --f-18: 3px;
+    }
+    .infor-0
+    {
+        height: 320px;
+    }
+    .btn-more
+    {
+        padding-top: 18px;
+        margin-top: 30px;
+    }
+    .contact-1 ul li 
+    {
+        margin-top: 12px;
+    }
+}
+@media (max-width:451px)
+{
+    .slider
+    {
+        height: 380px;
+        width: 340px;
+    }
+    .pic-slice 
+    {
+        width: 330px;
+    }
+    .vid-slice2
+    {
+        width: 330px;
+        height: 380px;
+    }
+    :root
+    {
+        --f-45: 25px;
+        --f-40: 20px;
+        --f-30: 10px;
+        --f-28: 8px;
+    }
+    .infor-0 ul li p 
+    {
+        font-size: 15px;
+    }
+    .ri-double-quotes-l
+    {
+        font-size: 10px;
+        margin-left: -10px;
+    }
+    .ri-double-quotes-r
+    {
+        font-size: 10px;
+        margin-left: 350px;
+    }
+    .content
+    {
+        margin-top: 50px;
+    }
+    .infor-0
+    {
+        height: 290px;
+    }
+}
+@media (max-width:424px)
+{
+    .infor-0
+    {
+        height: 270px;
+    }
+    .infor-0 ul li p 
+    {
+        font-size: 13px;
+    }
+    .ri-double-quotes-r
+    {
+        margin-left: 300px;
+    }
+    .contact-1 ul li 
+    {
+        padding-top: 7px;
+        padding-left: 9px;
+        width: 50px;
+        height: 50px;
+    }
+    .ri-instagram-line
+    {
+        font-size: 30px;
+    }
+    .ri-github-line
+    {
+        font-size: 30px;
+    }
+    .btn-more a
+    {
+        font-size: 13px;
+    }
+    .btn-more
+    {
+        width: 120px;
+        height: 50px;
+    }
+    
 }
 
